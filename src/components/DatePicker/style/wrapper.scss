@@ -1,0 +1,26 @@
+.picker-wrapper{
+	position: fixed;
+	top: 0px;
+	left:0px;
+	height: 100%;
+	width: 100%;
+	.modal{
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 2000;
+		opacity: .5;
+		background: #000;
+		height: 100%;
+		width: 100%;
+	}
+}
+.picker-wrapper-no-modal{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 50%;
+	width: 100%;
+}
+
+
