@@ -35,8 +35,8 @@ class App extends Component{
                 	isPopup={true}
                 	value={this.state.time}
                     isOpen={this.state.isOpen}
-                    min={new Date(2007,0,1)}
-                    max={new Date(2017,12,31)}
+                    min={new Date(1970,0,1)}
+                    max={new Date()}
                     onSelect={this.handleSelect}
                     onCancel={this.handleCancel}
                 />

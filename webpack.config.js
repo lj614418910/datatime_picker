@@ -2,7 +2,7 @@ var path = require('path')
 
 module.exports = {
     entry: {
-        demo: [path.join(__dirname,'/src/main.js')]
+        demo: __dirname + '/src/main.js'
     },
     output: {
         path: __dirname+'/asserts',
